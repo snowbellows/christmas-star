@@ -2,7 +2,7 @@ const YELLOW = '#ffc400ff';
 const PURPLE = '#9c27b0ff';
 
 function setup() {
-  createCanvas(600, 848);
+  createCanvas(600, 848, SVG);
 }
 
 function draw() {
@@ -13,7 +13,7 @@ function draw() {
   translate(width / 2, height / 2);
   drawStar(5);
   pop();
-  // save('christmas-star');
+  // save('christmas-star.svg');
   noLoop();
 }
 
