@@ -7,11 +7,14 @@ function setup() {
 
 function draw() {
   // background(220);
+  noFill();
 
   push();
   translate(width / 2, height / 2);
   drawStar(5);
   pop();
+  // save('christmas-star');
+  noLoop();
 }
 
 function drawStar(layers) {
